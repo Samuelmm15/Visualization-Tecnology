@@ -1,9 +1,3 @@
-# El código siguiente, que crea un dataframe y quita las filas duplicadas, siempre se ejecuta y actúa como un preámbulo del script: 
-
-# dataset <- data.frame(Age, Ash, cement, CoarseAgg, FineAgg, strength, superplasticizer, slag, water)
-# dataset <- unique(dataset)
-
-# Pegue o escriba aquí el código de script:
 library(randomForest)
 library(ggplot2)
 
@@ -30,6 +24,9 @@ ggplot(data = data.frame(Real = test_data$strength, Predicho = predicciones)) +
        x = "Valor Real",
        y = "Valor Predicho")
 
+# ====================================================================================
+# REPRESENTACIÓN DE LOS ÁRBOLES
+# ====================================================================================
 
 # Para poder visualizar lo que se obtiene de los árboles que se obtienen al aplicar el algoritmo original, se hace uso de:
 # Visualizar la estructura de los primeros dos árboles (puedes ajustar según necesites)

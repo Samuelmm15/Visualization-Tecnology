@@ -12,14 +12,9 @@ p <- ggplot(dataset, aes(x=x) ) +
   xlab("value of x")
 p
 
-# Para la siguiente modificacion de la representacion se emplea el uso de cambio de colores mediante una libreria y el empleo de titulo y subtitulo de la grafica, todo queda representado a continuacion
-
-# El código siguiente, que crea un dataframe y quita las filas duplicadas, siempre se ejecuta y actúa como un preámbulo del script: 
-
-# dataset <- data.frame(var1, var2, var3, var4, var5, var6, var7, var8)
-# dataset <- unique(dataset)
-
-# Pegue o escriba aquí el código de script:
+# ====================================================================================
+# MODIFICACIÓN
+# ====================================================================================
 library(ggplot2)
 library(hrbrthemes)
 library(viridis)

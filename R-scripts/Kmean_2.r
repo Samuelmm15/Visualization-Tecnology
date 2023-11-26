@@ -1,5 +1,4 @@
-﻿#
-library(ggpubr)
+﻿library(ggpubr)
 library(factoextra)
 # Compute k-means with k = 3
 set.seed(123)
@@ -12,8 +11,9 @@ fviz_cluster(res.km, data = dataset,
              ggtheme = theme_bw()
              )
 
-# Se realiza la personalización de la representación cambiando la paleta de colores, el añadido de los títulos, etc. Este cambio se puede observar en el siguiente código adjunto:
-
+# ====================================================================================
+# MODIFICACIÓN
+# ====================================================================================
 library(ggpubr)
 library(factoextra)
 library(viridis)
