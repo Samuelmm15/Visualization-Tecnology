@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Visualización de tres categorías de scripts}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Script de correlación}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Script de Densidad}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Script de clustering}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Visualización de dos scripts personalizados}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Primera representación personalizada}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Segunda representación personalizada}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Implementación del algoritmo \emph {Random-Forest}}{9}{chapter.3}%
